@@ -1,0 +1,12 @@
+<div (input)="changeText($event.target.innerHTML)" [innerHTML]="text" class="contentEditable file" id="contentEditable"
+  #contentEditable id="contentEditable" contenteditable>
+</div>
+
+<div class="synonyms-container">
+  <ul *ngIf="synonyms != null">
+    <li *ngFor="let item of synonyms">
+      {{ item }}
+      <button (click)="selectSynonym(item)">Select</button>
+    </li>
+  </ul>
+</div>

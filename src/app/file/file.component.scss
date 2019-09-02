@@ -1,0 +1,52 @@
+:host {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.file {
+  width: 600px;
+  flex-grow: 1;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+  padding: 20px;
+}
+.class-bold {
+  font-weight: bold;
+}
+.class-italic {
+  font-style: italic;
+}
+.class-line {
+  text-decoration-line: underline;
+}
+.contentEditable{
+  width: 500px;
+}
+.synonyms-container{
+  overflow: scroll;
+  height: 300px;
+  width: 300px;
+}
+.synonyms-container  ul li{
+  list-style: none;
+}
+.synonyms-container  li{
+ padding: 10px;
+ color: white;
+ text-transform: capitalize;
+}
+.synonyms-container  li:nth-child(even){
+  background-color: #888888;
+ }
+ .synonyms-container  li:nth-child(odd){
+  background-color: #FFA500;
+ }
+ .synonyms-container  button{
+   float:right;
+  text-align: right;
+  
+ }
+ 

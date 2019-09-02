@@ -1,0 +1,14 @@
+<div class="format-actions">
+  <button (click)="bold()" [class.button-selected]="hasFormatter('B')" class="format-action" type="button">
+    <b>B</b>
+  </button>
+  <button (click)="italic()" [class.button-selected]="hasFormatter('I')" class="format-action" type="button">
+    <i>I</i>
+  </button>
+  <button (click)="underline()" [class.button-selected]="hasFormatter('U')" class="format-action" type="button">
+    <u>U</u>
+  </button>
+  <button (click)="tabulation()" [class.button-selected]="hasFormatter('T')" class="format-action" type="button">
+    <b>T</b>
+  </button>
+</div>

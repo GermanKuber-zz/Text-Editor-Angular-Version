@@ -1,0 +1,8 @@
+<app-header [title]="title"></app-header>
+
+<main>
+  <app-control-panel (formatText)="formatText($event)" [selectedWord]="selectedWord"></app-control-panel>
+  <app-file [textFormatter]="textFormatter" (changeSelectWord)="changeSelectWord($event)"></app-file>
+</main>
+
+<app-footer></app-footer>
